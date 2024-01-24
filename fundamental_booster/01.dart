@@ -25,7 +25,7 @@ class Age
   {
      if (year >= 1924 && year <= 2024) 
      {
-      if (month == 1 | month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) 
+      if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) 
       {
         if (date >= 1 && date <= 31) 
         {
@@ -85,7 +85,6 @@ class Age
           }
         }
       }
-    }
     }
     else 
     {
