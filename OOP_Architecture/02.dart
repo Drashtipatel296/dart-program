@@ -221,7 +221,6 @@ class Market {
 
     stdout.write("👉 Enter your choice : ");
     choice = int.parse(stdin.readLineSync()!);
-    // print(" —⋅⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯— ");
 
     return choice;
   }
